@@ -1,7 +1,7 @@
 # Ubuntu_Autometic_Update_Script
 A Bash Script to Automatically Update Ubuntu Based Distros
 
-* First Change <b>Sudo_Password</b> from the code with your sudo Password 
+* First Change <b>SUDO_PASSWORD</b> from the code with your sudo Password 
 * Then make it executable by running 
 
 ```chmod +x update.sh```
@@ -13,7 +13,7 @@ A Bash Script to Automatically Update Ubuntu Based Distros
 # Features 
 
 * This Code will autometically take your password input from
-``` echo Sudo_Password ```
+``` echo SUDO_PASSWORD ```
 * Then it will update source list
 ``` sudo apt-get update ```
 * Then it will run upgrade command
